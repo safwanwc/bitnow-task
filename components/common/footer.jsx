@@ -5,6 +5,7 @@ import React from "react";
 import FooterLink from "../footer/footer-link";
 import NAVS from "@/contants/NAVIGATIONS";
 import QUICK_LINKS from "@/contants/FOOTER-LINKS";
+import newsLetterAction from "@/server-actions/news-letter-action";
 
 const Footer = () => {
   return (
@@ -86,15 +87,16 @@ const Footer = () => {
             <p className="text-white text-[16px] mt-5">
               Subscribe to our newsletter to get the latest updates and news.
             </p>
-            <form action="#" className="mt-5 relative">
+            <form action={newsLetterAction} className="mt-5 relative">
               <input
+                name="email"
                 type="email"
                 placeholder="Enter your email"
                 className="w-full bg-white rounded-md py-3 px-6 text-black placeholder:text-black/50 outline-0"
               />
               <button
                 type="submit"
-                className="w-full bg-[#5F82FF] hover:bg-[#3b5dcc] text-white text-[16px] font-semibold py-3 px-6 rounded-md mt-4"
+                className="w-full cursor-pointer bg-[#5F82FF] hover:bg-[#3b5dcc] text-white text-[16px] font-semibold py-3 px-6 rounded-md mt-4"
               >
                 Subscribe
               </button>
