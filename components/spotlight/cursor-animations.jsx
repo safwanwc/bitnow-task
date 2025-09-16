@@ -17,7 +17,7 @@ const CursorAnimations = () => {
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       >
         <motion.img
-          style={{ y: -32, x: 32 }}
+          style={{ y: -18, x: 32 }}
           animate={{
             visibility: ["hidden", "hidden", "visible", "hidden", "hidden"],
           }}
@@ -28,7 +28,7 @@ const CursorAnimations = () => {
           height={24}
         />
         <motion.img
-          style={{ y: 32, rotate: -90, x: 10 }}
+          style={{ y: 18, rotate: -90, x: 10 }}
           animate={{
             visibility: ["visible", "visible", "hidden", "hidden", "visible"],
           }}
