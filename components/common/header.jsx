@@ -12,7 +12,9 @@ const Header = () => {
           <span className="img ">
             <Image src="/logo.svg" alt="logo" width={40} height={40} />
           </span>
-          <span className="text-white text-[22px] font-monomaniac">BitNow</span>
+          <span className="text-white text-[22px] --font-monomaniac monomaniac-one-regular">
+            BitNow
+          </span>
         </h1>
       </Link>
       <nav className="flex items-center gap-4">

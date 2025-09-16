@@ -39,6 +39,7 @@ const CursorAnimations = () => {
           height={24}
         />
         <motion.span
+          style={{ boxShadow: "0px 4px 8px 0px rgba(13, 153, 255, 0.32)" }}
           animate={{
             borderTopLeftRadius: ["12px", "12px", "0", "12px"],
             borderBottomLeftRadius: ["0", "0", "12px", "0"],
@@ -66,7 +67,10 @@ const CursorAnimations = () => {
           className="absolute -left-4 -top-4"
         />
         <span
-          style={{ borderTopLeftRadius: "0" }}
+          style={{
+            borderTopLeftRadius: "0",
+            boxShadow: "0px 4px 8px 0px rgba(13, 153, 255, 0.32)",
+          }}
           className="bg-[#5F82FF] rounded-[12px] px-3 py-1 text-white text-[14px] font-semibold "
         >
           Comprehensive Support

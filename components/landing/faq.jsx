@@ -20,7 +20,7 @@ const FAQ = async () => {
       <div className="wrapper py-20">
         <div className="content bg-[#E4E4E42E] p-10 rounded-2xl">
           <div className="text-center text-white">
-            <h3 className="text-[40px]">
+            <h3 className="text-[40px] monomaniac-one-regular">
               Most Trusted Cryptocurrency Platform
             </h3>
             <p className="text-[18px] max-w-[70%] mx-auto mt-4">

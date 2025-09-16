@@ -21,7 +21,7 @@ const Spotlight = () => {
       <Header />
       <section id="spotlight">
         <div className="wrapper pb-10">
-          <h2 className="text-white text-[64px] mt-[28%] ">
+          <h2 className="text-white text-[78px] mt-[28%] monomaniac-one-regular">
             Ultrices ut etiam vulputate ante congue jokichn na
             <TextAnimation titles={ANIMATED_TITLES} />
           </h2>

@@ -23,7 +23,7 @@ const Footer = () => {
                   <span className="img ">
                     <Image src="/logo.svg" alt="logo" width={40} height={40} />
                   </span>
-                  <span className="text-white text-[22px] font-monomaniac">
+                  <span className="text-white text-[22px] monomaniac-one-regular">
                     BitNow
                   </span>
                 </h2>
